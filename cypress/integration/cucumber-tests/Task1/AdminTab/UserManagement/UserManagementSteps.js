@@ -1,4 +1,3 @@
-/// <reference types="Cypress" />
 import {And,Then,When} from "cypress-cucumber-preprocessor/steps";
 import UserManagementPage from "./UserManagementPage";
 

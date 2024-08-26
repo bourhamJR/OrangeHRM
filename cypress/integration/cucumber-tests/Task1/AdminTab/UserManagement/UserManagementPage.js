@@ -1,4 +1,3 @@
-/// <reference types="Cypress" />
 class UserManagementPage{
 
     //contsructor
@@ -43,6 +42,7 @@ class UserManagementPage{
     searchForUserByUsername(username){
         this.getUsernameSearchInput().clear().type(username)
         this.getSearchBtnLocator().click()
+        cy.wait(2000)
     }
 
     deleteSearchedUser(){
