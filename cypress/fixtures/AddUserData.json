@@ -1,0 +1,8 @@
+{
+    "role": "Admin",
+    "status": "Enabled",
+    "employeeName": "Orange Test",
+    "username": "QaTest",
+    "password": "password12345",
+    "confirmPassword": "password12345"
+  }
